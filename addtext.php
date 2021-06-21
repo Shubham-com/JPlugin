@@ -7,7 +7,7 @@ public function onBeforeCompileHead()
     {
      var $result;
     
-     $result =$this-> params->get('param'); 
+     $result =$this-> params->get('textfield'); 
      $document = JFactory::getDocument();
      $document->addScriptDeclaration(' window.addEventListener("DOMContentLoaded", function()
         {
