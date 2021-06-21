@@ -12,4 +12,19 @@
                 <filename plugin="addtext">addtext.php</filename>
                 <filename>index.html</filename>
         </files>
+        
+         <config>
+            <fields name="params">
+                <fieldset name="basic">
+                  <field
+                      name="textfield"
+                      type="text"
+                      label="Add text"
+                      description="AddtextHeading"/>
+                   
+                  
+                   
+                </fieldset>
+            </fields>
+        </config>
 </extension>
