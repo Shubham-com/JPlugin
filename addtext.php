@@ -5,7 +5,7 @@ class plgSystemplg_system_addtext extends JPlugin
 {
 public function onBeforeCompileHead()
     {
-     var $result;
+     global $result;
     
      $result =$this-> params->get('textfield'); 
      $document = JFactory::getDocument();
